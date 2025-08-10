@@ -1,0 +1,122 @@
+
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+            color: white;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(135deg, #68a4ff, #67c7ff);
+        }
+
+        #sun {
+            height: 200px;
+        }
+
+        #w {
+            height: 50px;
+        }
+
+        #wind {
+            height: 50px;
+        }
+
+        .con {
+            width: 100%;
+            padding: 30px;
+            max-width: 650px;
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            background: linear-gradient(135deg, #2d82ff, #4dbfff);
+            box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .con1 {
+            display: none;
+            gap: 20%;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .con5 {
+            display: flex;
+            gap: 50px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .sm p {
+            margin-top: 30px;
+            text-align: center;
+            cursor: pointer;
+            font-size: 12px;
+        }
+    
+
+        .con7 {
+            display: flex;
+            gap: 12px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .con7a {
+            padding: 1px;
+        }
+
+        .con7a p {
+            padding-bottom: 6px;
+        }
+
+        #inp {
+            padding: 8px 12px;
+            border-radius: 20px;
+            border: none;
+            outline: none;
+            font-size: 14px;
+            color: black;
+        }
+
+        .inputbox {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: white;
+            border-radius: 20px;
+            padding: 8px;
+        }
+
+        #s {
+            cursor: pointer;
+        }
+
+        .con6 {
+            display: flex;
+            gap: 12px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .con6 p {
+            padding-bottom: 6px;
+        }
+
+        .err {
+            display: none;
+            color: red;
+            font-weight: bold;
+        }
+    .dev{
+        font-size: 12px;
+    }
+    
